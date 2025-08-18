@@ -14,7 +14,7 @@ To convert into a webpage,
 	```
 - Open the Obsidian Vault generated in the repository’s parent folder, `/Webpage_Notes`
 - Open every single file inside `/Further Mathematics/Pure Math 1`. For each file, scroll all the way down, then all the way up to load the files. This ensures accurate rendering.
-- Use <kbd>Ctrl</kbd> + <kbd>P</kbd> to open the Command Palette. Select the `Webpage HTML Export: Select Export Settings` option and select all files. Then, click the `Export` button.
+- Use <kbd>Ctrl</kbd> + <kbd>P</kbd> to open the Command Palette. Select the `Webpage HTML Export: Select Export Settings` option and select all files. Then, select `Local Website` for the “Export Mode” setting. Finally, click the `Export` button.
 	![HTML Export Dialogue](README/HTML_Export.png)
 - The resulting `html` file will have the different topics in their respective folders that you can click to see:
 	![HTML Topics Sidebar](README/HTML_Topics.png)
