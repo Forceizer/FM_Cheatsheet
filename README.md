@@ -1,5 +1,6 @@
-This is an Obsidian Repository containing my cheat sheets for Further Maths. These can be converted into webpages or pdfs.
-# Conversion
+This is an Obsidian Repository containing my cheat sheets for Further Maths. These can be converted into webpages or pdfs for ease of use.
+![Screenshot of Repository](./README/Notes_Screenshot.png)
+# Conversion to Other Formats
 ## Webpage
 To convert into a webpage,
 - Make sure you have `python3` installed. Make sure that the parent folder you cloned this repository into is blank or at least doesn’t have the `/Webpage_Notes` directory.
@@ -15,7 +16,7 @@ To convert into a webpage,
 - Open every single file inside `/Further Mathematics/Pure Math 1`. For each file, scroll all the way down, then all the way up to load the files. This ensures accurate rendering.
 - Use <kbd>Ctrl</kbd> + <kbd>P</kbd> to open the Command Palette. Select the `Webpage HTML Export: Select Export Settings` option and select all files. Then, click the `Export` button.
 	![HTML Export Dialogue](README/HTML_Export.png)
-- The resulting `html` file will have the different tcs in their respective folders that you can click to see:
+- The resulting `html` file will have the different topics in their respective folders that you can click to see:
 	![HTML Topics Sidebar](README/HTML_Topics.png)
 
 ## PDF
