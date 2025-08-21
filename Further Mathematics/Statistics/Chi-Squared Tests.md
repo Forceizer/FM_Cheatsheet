@@ -13,7 +13,7 @@ For the test,
 
 To carry out the test at $\large \alpha \%$ significance level (for example $\large 5\%$),
 1. Write the hypotheses according to the question.
-	$$\Large\begin{aligned}
+	$$\large\begin{aligned}
 	&\begin{cases}
 	H_0: \text{There's no difference between Observed \& Expected Values} \\
 	H_0: \text{There's a difference between Observed \& Expected Values}
@@ -142,12 +142,12 @@ For any contingency table of data,
 	$$
 	Using the three types of totals, we calculate the values for the expected table:
 	
-	| Expected                            | $\large \text{Black}$                           | $\large \text{Blonde}$                          | $\large \text{Red}$                              | **$\large \textbf{Row Totals}$**  |
+	| Expected                            | $\large \text{Black}$                           | $\large \text{Blonde}$                          | $\large \text{Red}$                              | **$\textbf{Row Totals}$**  |
 	| ----------------------------------- | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------------ | --------------------------------- |
 	| $\large \text{Red}$                 | $\large \frac{100 \times 30}{200} = \boxed{15}$ | $\large \frac{100 \times 70}{200} = \boxed{35}$ | $\large \frac{100 \times 100}{200} = \boxed{50}$ | **$\mathbf{\large 100}$**         |
 	| $\large \text{Blue}$                | $\large \frac{60 \times 30}{200} = \boxed{9}$   | $\large \frac{60 \times 70}{200} = \boxed{21}$  | $\large \frac{60 \times 100}{200} = \boxed{30}$  | **$\mathbf{\large 60}$**          |
 	| $\large \text{Brown}$               | $\large \frac{40 \times 30}{200} = \boxed{6}$   | $\large \frac{40 \times 70}{200} = \boxed{14}$  | $\large \frac{40 \times 100}{200} = \boxed{20}$  | **$\mathbf{\large 40}$**          |
-	| **$\large \textbf{Column Totals}$** | **$\mathbf{\large 30}$**                        | **$\mathbf{\large 70}$**                        | **$\mathbf{\large 100}$**                        | **$\mathbf{\large 200}$** |
+	| **$\textbf{Column Totals}$** | **$\mathbf{\large 30}$**                        | **$\mathbf{\large 70}$**                        | **$\mathbf{\large 100}$**                        | **$\mathbf{\large 200}$** |
 
 	You don’t actually have to show the working ($\large \frac{100 \times 30}{200}$, $\large \frac{60 \times 30}{200}$, …). Just the answer will suffice.
 4. Find the degrees of freedom $\large \nu$ using:
