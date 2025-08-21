@@ -8,7 +8,7 @@ inverted_path = notes_path.parent / "Inverted_Notes"
 if inverted_path.exists():
     shutil.rmtree(inverted_path)
 
-filters = ["Further Mathematics/Induction Resources"]
+filters = ["Further Mathematics/Induction Resources", "README"]
 filters_paths = list()
 for filter in filters:
     filters_paths.append(notes_path / filter)
@@ -22,7 +22,7 @@ def image_in_filtered_folder(file):
     return filtered
 
 
-copiable_extensions = {".png", ".jpg"}
+invertable_extensions = {".png", ".jpg"}
 if __name__ == "__main__":
     for file in notes_path.glob("**/*"):
         if not file.is_file():
@@ -31,7 +31,7 @@ if __name__ == "__main__":
         if not new_dir.exists():
             new_dir.mkdir(parents=True)
 
-        if file.suffix in copiable_extensions and not image_in_filtered_folder(file):
+        if file.suffix in invertable_extensions and not image_in_filtered_folder(file):
             image = cv2.imread(str(file))
             inverted_image = cv2.bitwise_not(image)
 

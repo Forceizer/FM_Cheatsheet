@@ -7,7 +7,8 @@ if webpage_obsidian_path.exists():
     shutil.rmtree(webpage_obsidian_path)
 
 filters = ["Further Mathematics/Printable", "Further Mathematics/Pure Math 1/Printable", "README",
-           "Further Mathematics/Further Mathematics Cheat Sheet.md", "Untitled.md", "README.md", "LICENSE.md"]
+           "Further Mathematics/Further Mathematics Cheat Sheet.md", "Untitled.md", "Untitled 1.md", "README.md", "LICENSE.md",
+           "Further Mathematics/Pure Math 1/Further Mathematics Cheat Sheet.md", "Further Mathematics/Statistics/Further Mathematics Cheat Sheet.md"]
 filters_paths = list()
 for filter in filters:
     filters_paths.append(notes_path / filter)
