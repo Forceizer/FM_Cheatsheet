@@ -3,5 +3,7 @@
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "accentColor": "#00ffff",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true,
+  "showViewHeader": true
 }
