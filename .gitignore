@@ -1,4 +1,5 @@
 .trash/
+.obsidian/plugins/open-vscode/
 .obsidian/workspace*.json
 .obsidian-git-data
 .DS_Store

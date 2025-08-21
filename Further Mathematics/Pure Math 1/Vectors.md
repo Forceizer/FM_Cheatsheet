@@ -87,7 +87,7 @@ where $\alpha$ is one of the angles between the planes.
 - $\large \alpha \leq 90 \degree$ → $\large \text{Ans} = \alpha$
 - $\large \alpha > 90 \degree$ → $\large \theta = 180 \degree - \alpha \ (\text{Ans})$
 ![[Angle Between Planes.png]]
-	<font size="1px"> Modified from an Exported Image from [GeoGebra®](https://www.geogebra.org) licensed under CC-BY-NC-SA. </font>
+	 <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 ###### Line of Intersection of 2 Planes
 For two planes $\large \Pi_1$ and $\large \Pi_2$ with normals $\large \mathbf n_1$ and $\large \mathbf n_2$, their line of intersection $\large \mathbf r = \mathbf a + \mathbf bt$ can be found like so:
 1. As $\large \mathbf b$’s **direction** is **parallel** to both planes, it is **perpendicular** to their **normals**. Hence,
@@ -121,17 +121,17 @@ For two planes $\large \Pi_1$ and $\large \Pi_2$ with normals $\large \mathbf n_
 			This works without needing to make any assumptions.
 
 ![[geogebra-export(plane intersection line).png]]
-<font size="1px"> Modified from an Exported Image from [GeoGebra®](https://www.geogebra.org) licensed under CC-BY-NC-SA. </font>
+ <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 ###### Angle Between Line & Plane
 $$\Large
 \cos \alpha = \frac{\mathbf b \cdot \mathbf n}{|\mathbf b||\mathbf n|}
 $$
 - $\large \alpha \leq 90 \degree$ → $\large \theta = 90 \degree - \alpha$
 	![[geogebra-export(vector - plane, line up).png]]
-	<font size="1px"> Modified from an Exported Image from [GeoGebra®](https://www.geogebra.org) licensed under CC-BY-NC-SA. </font>
+	 <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 - $\large \alpha > 90 \degree$ → $\large \theta = \alpha - 90 \degree$
 	![[geogebra-export(vector - plane, line down).png]]
-	<font size="1px"> Modified from an Exported Image from [GeoGebra®](https://www.geogebra.org) licensed under CC-BY-NC-SA. </font>
+	 <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 ###### Shortest Distance Between Point & Plane
 To find the shortest distance between any plane $\large \Pi: \mathbf r \cdot \mathbf n = \mathbf a \cdot \mathbf n$ with the Cartesian Equation $\large ax + by + cz = d$, and any point $\large P(x_p, y_p, z_p)$ such that its position vector is $\large \mathbf p$, there are three methods:
 - **Intersection Method**

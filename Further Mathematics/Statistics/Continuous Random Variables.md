@@ -69,13 +69,13 @@ For a continuous random variable $\large X$ and its transformation $\large Y=h(X
 		G(y) = P(Y \le y) = P(X \le h^{-1}(y)) = \boxed{F(h^{-1}(y))}
 		$$
 		![[cdf increasing.png]]
-		<font size="1px"> <font size="1px"> Modified from an Exported Image from [GeoGebra®](https://www.geogebra.org) licensed under CC-BY-NC-SA. </font> </font>
+		 <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 	- For  a  **decreasing** transformation function $\large h(x)$,
 		$$\LARGE
 		G(y) = P(Y \le y) = P(X \ge h^{-1}(y)) = \boxed{1-F(h^{-1}(y))}
 		$$
 		![[cdf decreasing.png]]
-		<font size="1px"> <font size="1px"> Modified from an Exported Image from [GeoGebra®](https://www.geogebra.org) licensed under CC-BY-NC-SA. </font> </font>
+		 <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 		The CDF is subtracted from $\large 1$ as in decreasing functions, the probability is always highest at the start. This can be seen in the graph.
 ##### Finding PDF from PDF
 Given the PDF $\large f(x)$ of the continuous random variable $\large X$ and its transformation, $\large Y=h(x)$, there are two methods of finding the PDF $\large g(y)$ of $\large Y$:
