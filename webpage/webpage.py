@@ -43,3 +43,4 @@ if __name__ == "__main__":
 
     ## Special Instructions
     shutil.copy(notes_path / "Further Mathematics/Pure Math 1/Printable/Proof By Induction.md", webpage_obsidian_path / "Further Mathematics/Pure Math 1/Proof By Induction.md")
+    shutil.copy(notes_path / "webpage/workspace.json", webpage_obsidian_path / ".obsidian/workspace.json")

@@ -5,7 +5,7 @@ $$
 where,
 - $\large O_i$ = Observed Value
 - $\large E_i$ = Expected Value
-- $\large \chi$ is the greek letter “Chi”
+- $\large \chi$ is the Greek letter “Chi”
 
 For the test,
 - **Condition**: $\large E_i \ge 5$
