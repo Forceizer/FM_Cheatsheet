@@ -39,3 +39,6 @@ if __name__ == "__main__":
             cv2.imwrite(str(new_path), inverted_image)
         else:
             shutil.copy(file, new_dir / file.name)
+    
+    ## Special Instructions
+    shutil.copy(notes_path / "invert/workspace.json", inverted_path / ".obsidian/workspace.json")
