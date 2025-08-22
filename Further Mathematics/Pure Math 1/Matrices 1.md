@@ -220,7 +220,7 @@ Its inverse can be directly found as followed:
 	\begin{vmatrix}
 	a_{11} & a_{13} \\
 	a_{31} & a_{33}
-	\end{vmatrix} = a_{22} \times a_{33} - a_{23} \times a_{32}
+	\end{vmatrix} = a_{11} \times a_{33} - a_{13} \times a_{31}
 	\end{aligned}
 	$$
 	Repeat this for all the elements to calculate the minor matrix:
