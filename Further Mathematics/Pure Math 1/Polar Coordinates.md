@@ -50,7 +50,7 @@ Take an example function, $r=\sin2\theta$.
 - For **2 mark** questions, try to find symmetrical lines and such to speed up the process.
 - For **3 mark** questions, carefully plot each and every point so as to get the shape correct.
 #### Common Curves
-The **dotted lines** indicate portions where **$r<0$** and so aren’t usually drawn in the FP1 syllabus.
+The **dotted curves** indicate portions where **$r<0$** and so aren’t usually drawn in the FP1 syllabus.
 ##### Spirals
 - $r=k\theta$
 	![[GeoGebra-export(r=kθ).png]]
@@ -66,7 +66,7 @@ For $\sin k\theta$ and $\cos k\theta$ curves,
 - The **angle of rotation** of the $\sin k\theta$ curve with respect to the $\cos k\theta$ curve is $\Large \frac{\pi}{2k}$.
 - The **number of petals** of the curves are equal to $k$.
 ###### $\large\sin k\theta$ & $\large\cos k\theta$ Curves
-- $r=\sin\theta$ & $r=cos \theta$
+- $r=\sin\theta$ & $r=\cos \theta$
 	![[GeoGebra-export(r=sincosθ).png]]
 	 <font size="1px"> Modified from an Exported Image Made with [GeoGebra®](https://www.geogebra.org) </font>
 - $r=\sin 2\theta$ & $r=\cos 2\theta$
