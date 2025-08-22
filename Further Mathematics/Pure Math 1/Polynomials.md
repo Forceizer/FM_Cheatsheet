@@ -45,14 +45,14 @@ $$
 - $S_1 = \sum\alpha$
 - $S_2 = \sum\alpha^2 = (\sum\alpha)^2 - 2\sum\alpha\beta$
 - $S_{-1} = \sum\frac{1}{\alpha}$
-	$S_{-1}$ is always equal to the negative of the coefficient of $x$ divided by the cofficient of the constant term (The denominator, $a$ cancels out as their respective sums get divided).
+	$S_{-1}$ is always equal to the negative of the coefficient of $x$ divided by the coefficient of the constant term (The denominator, $a$ cancels out as their respective sums get divided).
 	$$\large\begin{array}{c c c c c}
 	ax^2+\underline{b}x+\underline{c} & & ax^3+bx^2+\underline{c}x+\underline{d} & & ax^4+bx^3+cx^2+\underline{d}x+\underline{e}
 	\end{array}	
 	$$
-    - $\large x^2$ → $\large S_{-1} = \sum\frac{1}{\alpha} = -\frac{\sum\alpha}{\sum\alpha\beta} = -\frac{b}{c}$
-	- $\large x^3$ → $\large S_{-1} = \sum\frac{1}{\alpha} = -\frac{\sum\alpha\beta}{\sum\alpha\beta\gamma} = -\frac{c}{d}$
-	- $\large x^4$ → $\large S_{-1} = \sum\frac{1}{\alpha} = -\frac{\sum\alpha\beta\gamma}{\sum\alpha\beta\gamma\sigma} = -\frac{d}{e}$
+    - $\large x^2$ → $\large S_{-1} = \sum\frac{1}{\alpha} = \frac{\sum\alpha}{\sum\alpha\beta} = -\frac{b}{c}$
+	- $\large x^3$ → $\large S_{-1} = \sum\frac{1}{\alpha} = \frac{\sum\alpha\beta}{\sum\alpha\beta\gamma} = -\frac{c}{d}$
+	- $\large x^4$ → $\large S_{-1} = \sum\frac{1}{\alpha} = \frac{\sum\alpha\beta\gamma}{\sum\alpha\beta\gamma\sigma} = -\frac{d}{e}$
 	
 ###### The Summation Form
 Any polynomial can be converted into their summation form as follows:
@@ -73,7 +73,7 @@ $$\large
 \\ \Rightarrow 5S_2 + 2S_1 + \boxed 4(9) + 4S_{-1} + 3S_{-2} &= 0
 \end{align*}
 $$
-Note that the constant term despite the powers changing, $k → nk$ still occurs with the original power $n$.
+Note that despite the powers changing, $k → nk$ still occurs with the original power $n$.
 ##### Substitution
 When a polynomial $P(x)$ which has roots $\alpha, \beta, \gamma$, is transformed into $F(y)$ such that $y=f(x)$, the new equation, $F(y)$ has roots $f(\alpha),\  f(\beta),\  f(\gamma)$. For example,
 > [!NOTE] $y=x^3 + x^2 -5 = 0$. Find the equation with roots $\large\frac{1}{\alpha - 2},\ \frac{1}{\beta - 2},\ \frac{1}{\gamma - 2}$
