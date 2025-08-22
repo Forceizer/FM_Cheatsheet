@@ -4,8 +4,8 @@
 - $\large\mathbf{A}\large\mathbf{B}\large\mathbf{C}\large\mathbf{D} = (\large\mathbf{A}\large\mathbf{B})\large\mathbf{C}\large\mathbf{D} = \large\mathbf{A}(\large\mathbf{B}\large\mathbf{C})\large\mathbf{D} = \large\mathbf{A}\large\mathbf{B}(\large\mathbf{C}\large\mathbf{D}) = (\large\mathbf{A}\large\mathbf{B})(\large\mathbf{C}\large\mathbf{D})$
 - $\large\mathbf{A}^m\large\mathbf{A}^n = \large\mathbf{A}^n\large\mathbf{A}^m = \large\mathbf{A}^{m+n}$
 ##### Inverse Matrices
-- A Matrix **with an inverse** is a **singular matrix**.
-- A Matrix **without an inverse** is a **non-singular matrix**.
+- A Matrix **with an inverse** is a **non-singular matrix**.
+- A Matrix **without an inverse** is a **singular matrix**.
 - $\large (\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$
 - For a $2 \times 2$ matrix, $\large \det(\mathbf{A}) = ad - bc$
 - For a $2 \times 2$ matrix, its inverse is given by:
@@ -108,8 +108,8 @@ $$
 $$
 #### Inverse Matrix
 Matrices may have inverses such that $\large\mathbf{A}^{-1}\mathbf{A} = \mathbf{I}$.
-- A Matrix **with an inverse** is a **singular matrix**.
-- A Matrix **without an inverse** is a **non-singular matrix**.
+- A Matrix **with an inverse** is a **non-singular matrix**.
+- A Matrix **without an inverse** is a **singular matrix**.
 - $\large (\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$
 ##### Determinants
 The determinant of a matrix is a number that identifies whether a matrix has an inverse or not. 
