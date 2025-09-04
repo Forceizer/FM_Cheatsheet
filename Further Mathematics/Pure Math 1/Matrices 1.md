@@ -44,6 +44,11 @@ For square matrices,
 It is also **equal to the multiplicative factor the matrix transformationtion increases the area by**.
 ##### Matrix Transformations
 ![[#^10851a]]
+For a set of transformations, $\large\mathbf M  = \mathbf{ABC}$, the **order** in which the transformations in $\large \mathbf M$ is applied is:
+1. $\large \mathbf C$
+2. $\large \mathbf B$
+3. $\large \mathbf A$
+
 ##### Identity Matrices
 An identity matrix, $\large\mathbf{I}$, is a square matrix such that $\large\mathbf{IA} = \large\mathbf{AI} = \large\mathbf{A}$.
 $$
@@ -357,5 +362,10 @@ These points can be  **transformed** by **multiplication** with a **transformati
 | **Reflection** in the line **$y=x$** `(this works by swapping x and y coordinates)`     | $$\large \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$                                          |
 
 ^10851a
+
+For a set of transformations, $\large\mathbf M  = \mathbf{ABC}$, the **order** in which the transformations in $\large \mathbf M$ is applied is:
+1. $\large \mathbf C$
+2. $\large \mathbf B$
+3. $\large \mathbf A$
 
 The **factor by which the transformed shape’s area increases is equal to the determinant of the matrix**. For example, if a shape’s area increases by $\large 2 \times$, $\large\det(\mathbf{A}) = 2$. 

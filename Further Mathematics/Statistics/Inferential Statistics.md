@@ -41,7 +41,7 @@ When using a normal distribution,
 $$\LARGE
 z = \frac{(\bar x - \bar y) - (\mu_x - \mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x} + \frac{\sigma_y^2}{n_y}}}
 $$
-When the sample sizes are small, we can assume equal population variance, and **pool** the variances together to get a more appropriate variance to use in our t-distribution:
+When the sample sizes are small ($\large n < 30$) , we can assume equal population variance, and **pool** the variances together to get a more appropriate variance to use in our t-distribution:
 $$\LARGE\begin{aligned}
 s^2_p &= \frac{S_{xx} + S_{yy}}{n_x+n_y-2} \\
 &= \frac{\Sigma x^2 -\frac{(\Sigma x)^2}{n_x} + \Sigma y^2 -\frac{(\Sigma y)^2}{n_y}}{n_x+n_y-2}
@@ -86,8 +86,8 @@ To calculate the confidence interval for a confidence interval $\alpha\%$,
 	$$
 2. Calculate with $\large z$ or $\large t$ according to the sample size $\large n$,
 	$$\LARGE \begin{aligned}
-	&(\bar x - \bar y) \pm z_\beta\sqrt{\frac{s^2_x}{n_x} + \frac{s^2_y}{n_y}} \\
-	&(\bar x - \bar y) \pm t_{\beta,\ n_x + n_y - 2}\sqrt{s^2_p\Bigm(\frac{1}{n_x} + \frac{1}{n_y}\Bigm)}
+	\text{when n > 30,}\ &(\bar x - \bar y) \pm z_\beta\sqrt{\frac{s^2_x}{n_x} + \frac{s^2_y}{n_y}}\\
+	\text{elsewhere, }&(\bar x - \bar y) \pm t_{\beta,\ n_x + n_y - 2}\sqrt{s^2_p\Bigm(\frac{1}{n_x} + \frac{1}{n_y}\Bigm)}
 	\end{aligned}
 	$$
 #### Assumptions

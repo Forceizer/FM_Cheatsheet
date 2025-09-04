@@ -59,13 +59,18 @@ To carry out the test at $\large \alpha \%$ significance level (for example $\la
 	$$\Large
 	\nu = 4-1-0 = 3
 	$$
-6. Calculate the test statistic and compare with the $\large \chi^2$ table’s value. If it is
+6. Find the $\large \chi ^2$ table’s value. To do so, we need to calculate $\large p$ using:
+	$$\Large
+	p = 1 - {\alpha \over 100}
+	$$
+	where, $\large \alpha$ is the significance level.
+7. Calculate the test statistic and compare with the $\large \chi^2$ table’s value. If it is
 	- $\large < \chi^2(\nu)$ → **Accept $\large H_0$**
 	- $\large > \chi^2(\nu)$ → **Reject $\large H_0$**
 		$$\Large
-		\sum\Bigm(\frac{(O_i-E_i)^2}{E_i} \Bigm) = 2.484 > 0.3518 \therefore \text{Reject } H_0
+		\sum\Bigm(\frac{(O_i-E_i)^2}{E_i} \Bigm) = 2.484 < 7.815 \therefore \text{Accept } H_0
 		$$
-7. Write the statement (e.g. Reject $\large H_0$ as sufficient evidence to suggest that …)
+8. Write the statement (e.g. Accept $\large H_0$ as insufficient evidence to suggest that …)
 
 #### Goodness of fit
 As mentioned in step **(2)**, one might need to **calculate** the expected values. For
